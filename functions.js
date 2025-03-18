@@ -4,6 +4,7 @@
 
 // Carousel Function to rotate cards in carousel 
 
+
 // Form Validation for UserName and Password
 const form = document.getElementById("login-form");
 form.addEventListener("submit", function (e) {
