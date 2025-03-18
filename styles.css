@@ -5,6 +5,16 @@
     font-family: 'Marvel', sans-serif;
 }
 
+.create-account {
+    color: #fff;
+    text-decoration: none;
+}
+
+.create-account:hover {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
 .home-link { 
     padding: 20px;
 }

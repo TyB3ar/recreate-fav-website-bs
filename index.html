@@ -69,11 +69,11 @@
     <!-- Returing User Login Form -->
     <div class="container mt-5">
         <form class="border p-3 shadow-sm bg-secondary">
-            <h2 class=" mt-3 text-center text-white fw-bold">Already have an account?</h2>
+            <h2 class="mt-3 text-center text-white fw-bold">Already have an account?</h2>
 
             <!-- Username for Login -->
             <label for="username" class="form-label text-white fs-3">Username:</label>
-            <input type="text" class="form-control is-invalid" id="username" placeholder="Enter your username">
+            <input type="text" class="form-control is-invalid" id="username" placeholder="Username Must be 3-15 Characters (Letter, Numbers, Underscore Only)">
             <div class="invalid-feedback hide">
                 Username is required.
             </div>
@@ -89,6 +89,8 @@
 
             <!-- Login Button for Submission -->
             <button type="submit" class="btn btn-success fs-4 w-100">Login</button>
+
+            <h4 class="mt-4 text-center text-white fw-bold">Don't Have an Account? <a href="https://www.marvelrivals.com/index.html" class="create-account" target="_blank">Create One Here</a></h4>
         </form>
     </div>
 
