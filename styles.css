@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.main {
+    background-image: url(pics/bg-1.png);
+    font-family: 'Marvel', sans-serif;
+}
+
+.home-link { 
+    padding: 20px;
+}
+
+.image-bg-fixed-height {
+    background: url(https://www.marvelrivals.com/pc/gw/20241128194803/img/4_0e993a54.jpg) no-repeat center center scroll;
+    height: 900px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.home-center { 
+    height: 6.85rem;
+    left: 50%;
+    margin-top: -3.7rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    z-index: 6;
+}
+
+.heroes {
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-fill-color: rgb(255, 193, 7);
+}
+
+.more-heroes {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+td {
+    font-size: larger;
+    line-height: 1.6;
+}
+
+.team-up-titles {
+    -webkit-text-stroke: 0.6px;
+    -webkit-text-fill-color: #fff;
+    text-shadow: 0px 0px 2px rgb(255, 193, 7);
+    text-align: center;
+    font-weight: 500;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    height: auto;
+}
+
+.footer-txt {
+    color: #fff;
+    line-height: 1.6;
+}
