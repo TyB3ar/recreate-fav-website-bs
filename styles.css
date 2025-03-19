@@ -19,6 +19,10 @@
     padding: 20px;
 }
 
+.nav-item.p-2:hover {
+    color: #ffc107;
+}
+
 .image-bg-fixed-height {
     background: url(https://www.marvelrivals.com/pc/gw/20241128194803/img/4_0e993a54.jpg) no-repeat center center scroll;
     height: 900px;
