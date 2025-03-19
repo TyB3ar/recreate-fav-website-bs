@@ -1,5 +1,3 @@
-// Functions to implement later on: 
-
 // Form Validation for UserName and Password
 const form = document.getElementById("login-form");
 form.addEventListener("submit", function (e) {
