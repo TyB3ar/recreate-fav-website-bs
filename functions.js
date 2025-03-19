@@ -24,3 +24,5 @@ form.addEventListener("submit", function (e) {
         isValid = false;
     }
 });
+
+// Fetch User Data for Login (Username and Password) 
