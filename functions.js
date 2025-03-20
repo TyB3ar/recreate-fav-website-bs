@@ -6,6 +6,7 @@ const regUser = [
     {userId: 'username', password : 'password'}
 ]; 
 
+// Primary Function for Validating Username and Password 
 form.addEventListener("submit", function (e) {
     e.preventDefault();
     const user = document.getElementById("username").value;
@@ -16,6 +17,7 @@ form.addEventListener("submit", function (e) {
     document.getElementById("username-error").textContent = "";
     document.getElementById("password-error").textContent = "";
 
+    // Regex for Username Validation 
     const userRegex = /^[a-zA-Z0-9_]{3,15}$/;
     if (!userRegex.test(user)) {
         document.getElementById("username-error").textContent = 
@@ -26,6 +28,7 @@ form.addEventListener("submit", function (e) {
         regUser.push(regUser.userId, user) // If username is valid, add username to regUser array 
     }
 
+    // Regex for Password Validation
     const passRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%?&])[A-Za-z\d@$!%?&]{8,}$/;
     if (!passRegex.test(pass)) {
         document.getElementById("password-error").textContent = 
