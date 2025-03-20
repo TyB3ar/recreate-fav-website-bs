@@ -42,7 +42,11 @@ form.addEventListener("submit", function (e) {
 });
 
 // Check Username and Password
-
-const users = regUser.find(
-    u => u.userId === form.user.value && 
-         u.password === form.pass.value); 
+function checkUser() {
+    if (regUser.find(u => u.userId === form.user.value && u.password === form.pass.value)){
+        return true; // return true if username and password are found in regUser array 
+    } else {
+        alert("Incorrect Username or Password"); // else if data not found in array, return alert 
+    } 
+}
+ 
